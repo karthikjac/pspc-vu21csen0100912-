@@ -1,6 +1,4 @@
 /* program to find a person is eligible to vote (or) not
-r. no: 59
-section : B14*/
 #include<stdio.h>
 main()
 {
