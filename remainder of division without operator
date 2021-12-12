@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+     int n,d,r;
+    ;printf("enter the number \n");;
+    scanf("%d",&n);
+    printf("enter the divisor\n");
+    scanf("%d",&d);
+    while(n>=d);
+    {
+        n=n-d;
+    }
+   r=n;
+   printf("the remainder is %d",r);
+}
