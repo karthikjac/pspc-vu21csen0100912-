@@ -1,17 +1,25 @@
 #include <stdio.h>
  
-int add(int x,int y)
-{
+int add(int x,int y){
 int z;
 z=x+y;
-printf("addition of two numbers is %d",z);
+return z;
+}
+int mul(int x,int y)
+{
+int z;
+z=x*y;
+return z;
 }
 int main()
 {
-int a,b,c;
+int a,b,c,l;
 printf("enter the value of a and b");
 scanf("%d%d",&a,&b);
 c=add(a,b);
 printf("%d",c);
+l=mul(a,b);
+printf("\n%d",l);
 
 }
+
