@@ -11,15 +11,22 @@ int z;
 z=x*y;
 return z;
 }
+int div(int x,int y)
+{
+int z;
+z=x/y;
+return z;
+}
 int main()
 {
-int a,b,c,l;
+int a,b,c,d,l;
 printf("enter the value of a and b");
 scanf("%d%d",&a,&b);
 c=add(a,b);
 printf("%d",c);
 l=mul(a,b);
 printf("\n%d",l);
+d=div(a,b);
+printf("\n%d",d);
 
 }
-
