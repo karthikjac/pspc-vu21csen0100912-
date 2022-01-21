@@ -1,0 +1,21 @@
+#include<stdio.h>
+intproduct(int a,int b)
+{
+    if (a<b){
+    return product(b,a);    
+}
+else if (b!=0){
+    return (a+product(a,b-1));
+}
+else{
+    return(0);
+}
+}
+int main()
+{
+    int i,j;
+    printf("enter two numbers to get their product:");
+    scanf("%d,%d",&i,&j);
+    int k-product(i,j);
+    printf("%d",k);
+}
