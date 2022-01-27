@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a[10],i,n,s=0;
+    printf("enter element size");
+    scanf("%d",&n);
+    printf("enter the elements in array");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if (a[i]%2==0)
+        printf("\nthe even no is :%d",a[i]);
+    }
+    printf("the sum is%d",s);
+    return 0;
+}
+    
