@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[10],b[10];
+    int x;
+    printf("enter the string value of a:");
+    gets(a);
+    printf("enter the string value of b:");
+    gets(b);
+    puts(a);
+    puts(b);
+    x=strcmp(a,b);
+    if(x==0)
+    {
+        printf("strings are equal");
+    }
+    else
+    {
+        printf("strings are not equal");
+    }
+
+    return 0;
+}
