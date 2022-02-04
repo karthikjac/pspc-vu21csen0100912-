@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[10],b[10];
+    printf("enter the string a:");
+    gets(a);
+    printf("enter the string b:");
+    gets(b);
+    puts(a);
+    puts(b);
+    printf("\n");
+    strcpy(a,b);
+    printf("a value is :");
+    puts(a);
+    printf("\nb value is :");
+    puts(b);
+     
+      return 0;
+}
