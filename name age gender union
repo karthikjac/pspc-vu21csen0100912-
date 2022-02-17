@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+    char name [20];
+    char gender [20];
+    int phno;
+    int age;
+    
+    FILE*fp;
+    fp=fopen("info.txt","w");
+    
+    printf("enter name");
+    scanf("%s",&age);
+    printf("enter gender");
+    scanf("%s",&gender);
+    printf("enter phno");
+    scanf("%d",&phno);
+    printf("enter age");
+    scanf("%d",&age);
+    fprintf(fp,"%s\n%s\n%d\n%d",name,gender,phno,age);
+    fclose(fp);
+    
+}
